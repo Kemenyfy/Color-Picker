@@ -3,32 +3,36 @@
 }
 
 .App-Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: #222;
-}
-
-.App-Title-h2 {
-  background-color: #222;
-  padding: 0px;
   color: white;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
-.App-Title-h5 {
-  background-color: #222;
-  padding-top: 6px;
-  color: white;
+.App-Title-1 {
+  font-size: 16px;
 }
 
-.App-Title-h6 {
-  background-color: #222;
-  padding-bottom: 6px;
-  color: white;
+.App-Title-2 {
+  font-size: 28px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App-Title-3 {
+  font-size: 8px;
 }
 
+.ColorBox {
+  height: 90px;
+  width: 90px;
+  border-radius: 6px;
+}
+
+.Captions {
+  font-size: 6px;
+}
 .Main-Picker {
   display: flex;
   justify-content: center;

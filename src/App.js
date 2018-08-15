@@ -41,20 +41,21 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-Header">
-          <h5 className="App-Title-h5">The Best</h5>
-          <h2 className="App-Title-h2">Color Picker</h2>
-          <h6 className="App-Title-h6">Created by Someone/Somehow/Maybe</h6>
+          <span className="App-Title-1">The Best</span>
+          <span className="App-Title-2">Color Picker</span>
+          <span className="App-Title-3">Created by Someone/Somehow/Maybe</span>
         </header>
         <section className="Main-Picker">
-          <div style= {
+          <div className="ColorBox" style= {
             {
-            height: '80px',
-            width: '80px',
             backgroundColor: `hsl(${this.state.hue},${this.state.saturation}%,${this.state.lightness}%)`}}>
           </div>
           <section className="Sliders">
+            <caption className="Captions">Hue</caption>
             <input type="range" min="0" max="360" onInput={this.updateColor} onChange={this.hueUpdated} value={this.state.hue}/>
+            <caption className="Captions">Saturation</caption>
             <input type="range" min="0" max="100" onInput={this.updateColor} onChange={this.saturationUpdated} value={this.state.saturation}/>
+            <caption className="Captions">Lightness</caption>
             <input type="range" min="0" max="100" onInput={this.updateColor} onChange={this.lightnessUpdated} value={this.state.lightness}/>
             {/* <input type="range" min="0" max="100" onInput={this.updateColor} onChange={this.alphaUpdated} value={this.state.alpha}/> */}
           </section>  

@@ -43,7 +43,7 @@ class App extends Component {
         <header className="App-Header">
           <span className="App-Title-1">The Best</span>
           <span className="App-Title-2">Color Picker</span>
-          <span className="App-Title-3">Created by Someone/Somehow/Maybe</span>
+          <span className="App-Title-3">Created by Gustavo Kemenyfy</span>
         </header>
         <section className="Main-Picker">
           <div className="ColorBox" style= {

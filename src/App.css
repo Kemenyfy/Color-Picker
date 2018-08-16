@@ -8,30 +8,31 @@
   justify-content: space-around;
   background-color: #222;
   color: white;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 1em;
+  padding: 1em;
 }
 
 .App-Title-1 {
-  font-size: 16px;
+  font-size: 1.5em;
 }
 
 .App-Title-2 {
-  font-size: 28px;
+  font-size: 3em;
+  padding: .2em;
 }
 
 .App-Title-3 {
-  font-size: 8px;
+  font-size: .7em;
 }
 
 .ColorBox {
-  height: 90px;
-  width: 90px;
+  height: 7em;
+  width: 7em;
   border-radius: 6px;
 }
 
 .Captions {
-  font-size: 6px;
+  font-size: .5em;
 }
 .Main-Picker {
   display: flex;
@@ -43,4 +44,13 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 8px;
+}
+
+input {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.ColorInputs {
+  margin-top: .8em;
 }
